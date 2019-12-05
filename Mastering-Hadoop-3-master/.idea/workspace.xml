@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b93a348-ca79-407e-b2d6-b2ec60109a9c" name="Default Changelist" comment="" />
+    <list default="true" id="4b93a348-ca79-407e-b2d6-b2ec60109a9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第一章 Hadoop概述与安装.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第一章 Hadoop概述与安装.pptx" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordcountMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,10 +35,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/mapjoin/MapSideJoinDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordCountDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="105">
               <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter06/src/main/java/com/packt/spark/SparkWordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="90">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
@@ -51,16 +67,29 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="204" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="1358" />
+    <option name="height" value="824" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,45 +105,20 @@
             <path>
               <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-              <item name="hive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-              <item name="presto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -122,7 +126,7 @@
             <path>
               <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -131,7 +135,7 @@
             <path>
               <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -141,100 +145,81 @@
             <path>
               <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-app:2.7.3" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-app:2.7.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-mapreduce-client-app-2.7.3.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-app:2.7.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-mapreduce-client-app-2.7.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-app:2.7.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-mapreduce-client-app-2.7.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="packt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="compositejoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="packt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="mapjoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="packt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="minmax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter09" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
@@ -271,10 +256,10 @@
     <option name="totallyTimeSpent" value="2679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="1358" extended-state="0" />
+    <frame x="204" y="23" width="1280" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2223127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22859451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -317,20 +302,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/util/Tool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/util/ToolRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/util/Tool.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.3/hadoop-common-2.7.3.jar!/org/apache/hadoop/util/ToolRunner.class" />
     <entry file="file://$PROJECT_DIR$/Chapter05/sql/hive/hive-partition.hql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -344,10 +317,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/mapjoin/UserPurchaseMapSideJoinMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordcountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -356,7 +332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordCountDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="105">
           <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -366,8 +342,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter06/src/main/java/com/packt/spark/SparkWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/mapjoin/MapSideJoinDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
