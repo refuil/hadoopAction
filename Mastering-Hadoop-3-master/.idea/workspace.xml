@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b93a348-ca79-407e-b2d6-b2ec60109a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/HDFS/HDFSFileSystemWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/HDFS/HDFSReadUsingFileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/HDFS/HDFSReadUsingURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/spark/statesPopulation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/spark/test2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/scala/com/hadoop/spark/test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Big-Data-Analytics-with-Hadoop-3-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Big-Data-Analytics-with-Hadoop-3-master/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Big-Data-Analytics-with-Hadoop-3-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Big-Data-Analytics-with-Hadoop-3-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/classes/META-INF/hadoopClass.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/classes/com/hadoop/HDFS/HDFSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/classes/com/hadoop/HDFS/HDFSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/classes/com/hadoop/mapreduce/wordcount/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/classes/com/hadoop/mapreduce/wordcount/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/classes/com/hadoop/mapreduce/wordcount/WordcountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/classes/com/hadoop/mapreduce/wordcount/WordcountMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/classes/com/hadoop/mapreduce/wordcount/WordcountReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/classes/com/hadoop/mapreduce/wordcount/WordcountReducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../~$《Hadoop分布式存储与运算》知识点大纲修改0919.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../~$《Hadoop分布式存储与运算》知识点大纲修改0919.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../第二章 HDFS分布式文件系统.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第二章 HDFS分布式文件系统.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../第四章 MapReduce分布式计算框架.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第四章 MapReduce分布式计算框架.pptx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -291,7 +271,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="91" width="1280" height="824" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23778501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
