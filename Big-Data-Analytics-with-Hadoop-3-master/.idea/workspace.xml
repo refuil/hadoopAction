@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4d8edca-3f20-425b-acd0-a37fc3a40f22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../第二章 HDFS分布式文件系统.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第二章 HDFS分布式文件系统.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mastering-Hadoop-3-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mastering-Hadoop-3-master/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +55,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="128" />
+    <option name="x" value="292" />
+    <option name="y" value="288" />
     <option name="width" value="1264" />
     <option name="height" value="824" />
   </component>
