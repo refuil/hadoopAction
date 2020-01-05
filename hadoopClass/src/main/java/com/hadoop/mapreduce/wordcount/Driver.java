@@ -10,20 +10,12 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
-import org.apache.hadoop.util.Tool;
-import org.apache.hadoop.util.ToolRunner;
 
 /**
  * 程序入口类
  */
-public class Driver extends Configured implements Tool {
+public class Driver extends Configured{
     public static void main(String[] args) throws Exception {
-        int res = ToolRunner.run(new Configuration(), (Tool) new Driver(),
-                args);
-        System.exit(res);
-    }
-
-    public int run(String[] args) throws Exception {
         //1. 创建配置
         Configuration conf = new Configuration();
         //2. 设置hadoop的作业，作业名为WordCount
@@ -34,14 +26,12 @@ public class Driver extends Configured implements Tool {
             System.out.println("Jar requires 2 paramaters : \""
                     + job.getJar()
                     + " input_path output_path");
-            return 1;
         }
         //4. 设置Mapper的class
         job.setMapperClass(WordcountMapper.class);
         //5. 设置Reducer的class
         job.setReducerClass(WordcountReducer.class);
 
-        job.setCombinerClass(WordcountReducer.class);
         //6. 设置输出的key和value类型
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
@@ -55,6 +45,5 @@ public class Driver extends Configured implements Tool {
         FileOutputFormat.setOutputPath(job, outputPath);
         //8. Job执行结束，程序退出
         job.waitForCompletion(true);
-        return 0;
     }
 }

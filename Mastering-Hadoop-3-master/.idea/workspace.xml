@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b93a348-ca79-407e-b2d6-b2ec60109a9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HadoopMaster/src/main/java/com/hadoop/mapreduce/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopMaster/src/main/java/com/hadoop/mapreduce/WordcountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopMaster/src/main/java/com/hadoop/mapreduce/WordcountReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/scala/com/spark/dataframe/wordcount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopMaster/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopMaster/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../~$20191219.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../第七章 Spark编程基础DataFrame.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第七章 Spark编程基础DataFrame.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/wordcount/WordcountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/wordcount/WordcountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/spark/FileOperation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/spark/FileOperation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/spark/statesPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/spark/statesPopulation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/scala/com/hadoop/spark/test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/scala/com/spark/test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$《Hadoop分布式存储与运算》知识点大纲修改0919.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第三章 Yarn资源调度.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第三章 Yarn资源调度.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第五章 MapReduce高级程序设计.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第五章 MapReduce高级程序设计.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第八章 Spark高级编程RDD与Dataset.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第八章 Spark高级编程RDD与Dataset.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第四章 MapReduce分布式计算框架.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第四章 MapReduce分布式计算框架.pptx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +44,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="327" />
-    <option name="y" value="23" />
+    <option name="x" value="565" />
+    <option name="y" value="72" />
     <option name="width" value="1440" />
     <option name="height" value="999" />
   </component>
@@ -42,454 +55,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="hdfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="compositejoin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="mapjoin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="minmax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="movierating" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="reducejoin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="topk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="hbase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter07" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="pig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoopdesign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter08" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,17 +107,19 @@
       <workItem from="1577716193294" duration="182000" />
       <workItem from="1577755809036" duration="767000" />
       <workItem from="1577847110194" duration="454000" />
+      <workItem from="1577930050744" duration="1196000" />
+      <workItem from="1577974227209" duration="597000" />
+      <workItem from="1578196398772" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11085000" />
+    <option name="totallyTimeSpent" value="12962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="327" y="23" width="1440" height="999" extended-state="0" />
-    <editor active="true" />
+    <frame x="565" y="72" width="1440" height="999" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32925072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35302594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

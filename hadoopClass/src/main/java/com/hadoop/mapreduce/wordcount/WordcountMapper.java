@@ -7,10 +7,10 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 /**
- * LongWritable 输入文件的偏移
- * Text 输入的每一行的数据
+ * LongWritable 输入文件的偏移，固定不变，指定map输入key的类型为长整形
+ * Text 输入的每一行的数据，map输入value的数据类型为字符串
  * Text 输出的key的类型
- * IntWriatable 输出value的类型
+ * IntWriatable 输出value的类型为整型
  */
 public class WordcountMapper extends Mapper<LongWritable, Text, Text,
         IntWritable> {
