@@ -1,6 +1,5 @@
 package com.hadoop.mapreduce.topk;
 
-import com.packt.mapreduce.minmax.PlayerDetail;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.mapreduce.Reducer;
 import java.io.IOException;

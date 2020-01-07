@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b93a348-ca79-407e-b2d6-b2ec60109a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HadoopMaster/src/main/java/com/hadoop/mapreduce/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HadoopMaster/src/main/java/com/hadoop/mapreduce/WordcountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HadoopMaster/src/main/java/com/hadoop/mapreduce/WordcountReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/scala/com/spark/dataframe/wordcount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HadoopMaster/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopMaster/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/wordcount/WordcountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/wordcount/WordcountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/spark/FileOperation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/spark/FileOperation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/spark/statesPopulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/spark/statesPopulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/scala/com/hadoop/spark/test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/scala/com/spark/test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../~$《Hadoop分布式存储与运算》知识点大纲修改0919.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../第三章 Yarn资源调度.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第三章 Yarn资源调度.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/cities.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/UserDefined/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/UserDefined/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/UserDefined/UserInfoTextInputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/temperatures.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/run_wordcount/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/run_wordcount/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/topk/TopKReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/topk/TopKReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/hadoopClass-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/hadoopClass-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../第五章 MapReduce高级程序设计.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第五章 MapReduce高级程序设计.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../第八章 Spark高级编程RDD与Dataset.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第八章 Spark高级编程RDD与Dataset.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../第四章 MapReduce分布式计算框架.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第四章 MapReduce分布式计算框架.pptx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,7 +28,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordCountDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -55,7 +65,114 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="packt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="packt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="packt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="compositejoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="packt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="topk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="packt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -110,16 +227,18 @@
       <workItem from="1577930050744" duration="1196000" />
       <workItem from="1577974227209" duration="597000" />
       <workItem from="1578196398772" duration="84000" />
+      <workItem from="1578289011465" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12962000" />
+    <option name="totallyTimeSpent" value="13195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="565" y="72" width="1440" height="999" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35302594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3595101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -232,16 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordCountDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter06/src/main/java/com/packt/spark/SparkWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -279,6 +388,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordCountDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

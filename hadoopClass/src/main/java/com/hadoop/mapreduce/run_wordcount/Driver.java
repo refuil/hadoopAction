@@ -31,7 +31,7 @@ public class Driver extends Configured implements Tool {
         //3. 设置jar
         job.setJarByClass(Driver.class);
         if (args.length < 2) {
-            System.out.println("Jar requires 2 paramaters : \""
+            System.out.println("Jar requires 2 paramaters : "
                     + job.getJar()
                     + " input_path output_path");
             return 1;
@@ -60,13 +60,13 @@ public class Driver extends Configured implements Tool {
         System.out.println("任务名称:" + job.getJobName());
         System.out.println("任务成功:" + (job.isSuccessful()? "是" : "否"));
         System.out.println("输入行数:" +
-                job.getCounters().findCounter("org.apache.hadoop.mapreduce.Task$Counter",
+                job.getCounters().findCounter("org.apache.hadoop.mapred.Task$Counter",
                         "MAP_INPUT_RECORDS").getValue() );
         System.out.println("输出行数:" +
-                job.getCounters().findCounter("org.apache.hadoop.mapreduce.Task$Counter",
+                job.getCounters().findCounter("org.apache.hadoop.mapred.Task$Counter",
                         "MAP_OUTPUT_RECORDS").getValue());
         System.out.println( "输出行数：" +
-                job.getCounters().findCounter("org.apache.hadoop.mapreduce.Task$Counter",
+                job.getCounters().findCounter("org.apache.hadoop.mapred.Task$Counter",
                         "REDUCE_INPUT_RECORDS").getValue() );
 
 
