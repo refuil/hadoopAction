@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b93a348-ca79-407e-b2d6-b2ec60109a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/cities.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/UserDefined/DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/UserDefined/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/UserDefined/UserInfoTextInputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/temperatures.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/run_wordcount/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/run_wordcount/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/topk/TopKReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/src/main/java/com/hadoop/mapreduce/topk/TopKReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/hadoopClass-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/hadoopClass-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoopClass/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoopClass/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MASTERING_HADOOP_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../MASTERING_HADOOP_3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../第五章 MapReduce高级程序设计.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第五章 MapReduce高级程序设计.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第六章 Hadoop生态圈Hive.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第六章 Hadoop生态圈Hive.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../第四章 MapReduce分布式计算框架.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../第四章 MapReduce分布式计算框架.pptx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,12 +20,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordCountDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="193">
+              <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +46,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="565" />
-    <option name="y" value="72" />
+    <option name="x" value="337" />
+    <option name="y" value="119" />
     <option name="width" value="1440" />
     <option name="height" value="999" />
   </component>
@@ -107,74 +99,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="compositejoin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="topk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="packt" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering-hadoop-3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mastering-Hadoop-3-master" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,17 +158,18 @@
       <workItem from="1577974227209" duration="597000" />
       <workItem from="1578196398772" duration="84000" />
       <workItem from="1578289011465" duration="233000" />
+      <workItem from="1578885336221" duration="1152000" />
+      <workItem from="1578968254753" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13195000" />
+    <option name="totallyTimeSpent" value="14351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="565" y="72" width="1440" height="999" extended-state="0" />
-    <editor active="true" />
+    <frame x="337" y="119" width="1440" height="999" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3595101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3724784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -393,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter04/src/main/java/com/packt/mapreduce/wordcount/WordCountDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="193">
+          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
